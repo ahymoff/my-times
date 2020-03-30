@@ -1,0 +1,335 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 30px;
+  color: black;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+/* Column and Containers */
+
+.column1 {
+  flex-basis: 630px;
+  border: 1px solid orange;
+}
+
+.column2 {
+  flex-basis: 300px;
+  border: 1px solid orange;
+}
+
+.column3 {
+  flex-basis: 240px;
+  border: 1px solid orange;
+}
+
+.main-container {
+  display: flex;
+  border: 1px solid black;
+  position: relative;
+  top: 70px;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5%;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  margin-left: 10px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+}
+
+nav {
+  position: relative;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.sticky-nav a {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+}
+
+
+/* Main Story (Column 1, Row 1) */
+
+
+.main-box {
+  border: 1px solid red;
+}
+
+.main-photo {
+  background-image: url(/Users/AaronHymoff/Desktop/Projects/Codecademy/04-Positioning/01-My_Times/Resources/Images/img-story-main.png);
+}
+
+
+/* Column 1, Row 2 */
+
+.column1-row2 {
+  border: 1px solid blue;
+  display: flex;
+}
+
+.orca-story {
+  border: 1px solid red;
+}
+
+.burger-story {
+  border: 1px solid red;
+}
+
+/* Column 1, Row 3 */
+
+.column1-row3 {
+  display: flex;
+  border: 1px solid blue;
+}
+
+.earth-story {
+  background-image: url(/Users/AaronHymoff/Desktop/Projects/Codecademy/04-Positioning/01-My_Times/Resources/Images/img-story-2.png);
+  border: 1px solid red;
+}
+
+.earth-story h2 {
+  color: white;
+}
+
+.camera-story {
+  background-image: url(/Users/AaronHymoff/Desktop/Projects/Codecademy/04-Positioning/01-My_Times/Resources/Images/img-story-3.png);
+  border: 1px solid red;
+}
+
+.camera-story h2 {
+  color: white;
+}
+
+
+/* Column 2, Row 1 */
+
+.fbi-story {
+  border: 1px solid red;
+}
+
+.fbi-story h1 {
+  color: black;
+}
+
+.cat-story {
+  border: 1px solid red;
+}
+
+.cat-photo {
+  background-image: url(/Users/AaronHymoff/Desktop/Projects/Codecademy/04-Positioning/01-My_Times/Resources/Images/img-story-1.png);
+}
+
+.cat-photo h2 {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Header
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5%;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  margin-left: 10px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+}
+
+nav {
+  position: relative;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.sticky-nav a {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+}
+
+
+.column {
+  display: flex;
+  border: 1px solid red;
+  position: relative;
+  top: 70px;
+}
+
+.large {
+  width: 630px;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+/*
+.column.large {
+  display: flex;
+  border: 1px solid red;
+  flex-direction: column;
+  width: 630px;
+  padding: 20px 20px 0 0;
+}
+
+.column.medium {
+  display: flex;
+  border: 1px solid red;
+  flex-direction: column;
+  width: 300px;
+}
+
+.column.small {
+  display: flex;
+  border: 1px solid red;
+  flex-direction: column;
+  width: 240px;
+}
+
+*/
+/* secondary buckets */
+
+
+/*
+.main {
+  border: 1px solid red;
+}
+
+.secondary {
+  border: 1px solid red;
+}
+
+.tile {
+  border: 1px solid red;
+}
+
+.orca-story {
+  border: 1px solid red;
+}
+
+.burger-story {
+  border: 1px solid red;
+}
+
+.earth-tile {
+  border: 1px solid red;
+}
+
+.cameras-tile {
+  border: 1px solid red;
+}
+
+.fbi-story {
+  border: 1px solid red;
+}
+
+.cat-story {
+  border: 1px solid red;
+}
+
+
+*/
+
+
+
+
+
+
+
+footer {
+  position: relative;
+  top: 90px;
+}
