@@ -25,26 +25,31 @@ p {
 
 /* Column and Containers */
 
-.column1 {
-  flex-basis: 630px;
-  border: 1px solid orange;
-}
-
-.column2 {
-  flex-basis: 300px;
-  border: 1px solid orange;
-}
-
-.column3 {
-  flex-basis: 240px;
-  border: 1px solid orange;
-}
-
 .main-container {
   display: flex;
   border: 1px solid black;
   position: relative;
   top: 70px;
+  overflow: scroll;
+  width: 1300px;
+}
+
+.column1 {
+  width: 630px;
+  padding: 20px 20px 0 0;
+  border: 1px solid orange;
+}
+
+.column2 {
+  width: 300px;
+  padding: 20px 20px 0 0;
+  border: 1px solid orange;
+}
+
+.column3 {
+  width: 240px;
+  padding: 20px 20px 0 0;
+  border: 1px solid orange;
 }
 
 /* Header */
