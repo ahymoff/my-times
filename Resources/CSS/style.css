@@ -34,22 +34,21 @@ p {
   width: 1300px;
 }
 
-.column1 {
+.column {
+  padding: 20px 20px 0 0;
+  border: 1px solid orange;
+}
+
+.large {
   width: 630px;
-  padding: 20px 20px 0 0;
-  border: 1px solid orange;
 }
 
-.column2 {
+.medium {
   width: 300px;
-  padding: 20px 20px 0 0;
-  border: 1px solid orange;
 }
 
-.column3 {
+.small {
   width: 240px;
-  padding: 20px 20px 0 0;
-  border: 1px solid orange;
 }
 
 /* Header */
@@ -115,26 +114,14 @@ li {
 }
 
 
-/* Column 1, Row 2 */
+/* Column 1, subcolumn 1 */
 
-.column1-row2 {
+.column1-subcolumn1 {
   border: 1px solid blue;
-  display: flex;
 }
 
 .orca-story {
   border: 1px solid red;
-}
-
-.burger-story {
-  border: 1px solid red;
-}
-
-/* Column 1, Row 3 */
-
-.column1-row3 {
-  display: flex;
-  border: 1px solid blue;
 }
 
 .earth-story {
@@ -144,6 +131,17 @@ li {
 
 .earth-story h2 {
   color: white;
+}
+
+
+/* Column 1, subcolumn 3 */
+
+.column1-subcolumn2 {
+  border: 1px solid blue;
+}
+
+.burger-story {
+  border: 1px solid red;
 }
 
 .camera-story {
